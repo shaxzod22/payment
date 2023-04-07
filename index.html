@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css" >
+    <title>Document</title>
+</head>
+<body>
+    <div class="payment">
+        <ol class="payment__list-dotes">
+            <li class="payment__item-dotes"></li>
+            
+            <li class="payment__item-dotes"></li>
+            
+            <li class="payment__item-dotes"></li>
+        </ol>
+        
+        <h2 class="payment__heading">payment method</h2>
+        
+        <ul class="payment__list">
+            <li class="payment__item">
+                <label for="visa">
+                    <input class="payment__input" name="checked method" id="visa" type="radio">
+                    <div class="payment__left">
+                        <img alt="visa logo" class="payment__img" width="58" height="40" srcset="./img/visa.svg 1x , ./img/visa@2x.png 2x">
+                        
+                        <p class="label__text">VISA</p>
+                    </div>
+                    
+                    <img alt="checked" class="label__tick" srcset="./img/check.svg 1x , ./img/check@2x.png 2x" width="25" height="25">
+                </label>
+            </li>
+            
+            <li class="payment__item payment__item--2">
+                
+                <label for="mastercard">
+                    <input class="payment__input" name="checked method" id="mastercard" type="radio">
+                    <div class="payment__left">
+                        <img  alt="mastercard logo" class="payment__img payment__img--2" width="55" height="38" srcset="./img/mastercard.svg 1x , ./img/mastercard@2x.png 2x">
+                        
+                        <p class="label__text">mastercard</p>
+                    </div>
+                    
+                    <img alt="checked" class="label__tick" srcset="./img/check.svg 1x , ./img/check@2x.png 2x" width="25" height="25">
+                </label>
+            </li>
+            
+            <li class="payment__item payment__item--2">
+                
+                
+                <label for="maestro">
+                    <input class="payment__input" name="checked method" id="maestro" type="radio">
+                    <div class="payment__left">
+                        <img alt="maestro logo" class="payment__img payment__img--3" width="55" height="40" srcset="./img/maestro.svg 1x , ./img/maestro@2x.png 2x">
+                        
+                        <p class="label__text">maestro</p>
+                    </div>
+                    
+                    <img alt="checked" class="label__tick" srcset="./img/check.svg 1x , ./img/check@2x.png 2x" width="25" height="25">
+                </label>
+            </li>
+        </ul>
+        
+        <button type="submit" class="payment__btn">
+            NEXT STEP 
+            <img alt="arrow img" class="btn__arrow" srcset="./img/arrow.svg 1x , ./img/arrow@2x.png 2x" width="30" height="30">
+        </button>
+    </div>
+</body>
+</html>
